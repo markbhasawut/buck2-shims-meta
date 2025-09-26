@@ -10,4 +10,4 @@ def fbcode_target(*args, _kind, **kwargs):
     return _kind(*args, **kwargs)
 
 def non_fbcode_target(*args, _kind, **kwargs):
-    return None
+    return _kind(*args, **kwargs)
