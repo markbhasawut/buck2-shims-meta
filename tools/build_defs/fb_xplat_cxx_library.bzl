@@ -6,5 +6,5 @@
 # of this source tree. You may select, at your option, one of the
 # above-listed licenses.
 
-def fb_xplat_cxx_library():
+def fb_xplat_cxx_library(**kwargs):
     pass
